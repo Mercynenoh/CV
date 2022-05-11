@@ -1,0 +1,157 @@
+body{
+    background-color:rgb(58, 58, 39);
+    margin: 0;
+}
+h1{
+    color: green;
+    font-size: x-large;
+    float: left;   
+}
+    
+#active{
+    display: inline;  
+}
+
+#active :hover{
+    color: red;
+}
+
+.social-icon{
+    color:purple;
+    text-decoration: none;
+    margin: 0 10px;
+   font-size: 100px;   
+   transition: 0s;
+}
+
+.social-icon :hover{
+    color: green;
+}
+ 
+span{
+    color: darkslategray;
+}
+
+.link{
+    background-color:olive;
+    color:black;  
+    font-size: 20px;
+}
+.link :hover{
+    color:white;
+}
+span{
+    color:darkred;
+}
+div{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.header{
+ 
+    height: 100px;
+    text-align: center;
+    float: right;
+    width: 55%;
+ }
+ .left-col{
+     
+     width: 40%;
+     float: left;
+     background-color:pink;
+     padding: 25px;
+ }
+ .right-col{
+     width: 50%;
+     float: right;
+     background-color:white;
+     padding: 25px;
+ }
+ #intro{
+     font-size: 50px;
+     color: black;
+ }
+
+ #profile{
+    border: 1px solid purple;
+    border-radius: 200px;
+    margin: 8px;
+    padding: 5px;
+ }
+
+ #planet{
+     float: right;
+ }
+ #menu{
+    font-size: 30px;
+    text-align: center;
+    background-color:skyblue; 
+   text-decoration: none;
+}
+#sunset{
+    background-image: url(./Img/pexels-henry-&-co-1939485.jpg);
+}
+.section{
+    display: contents;
+    justify-content: left;
+    align-items: center;
+    text-align: start;
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 100px;
+    padding: 200px 0;
+    overflow: hidden;
+    min-height: 100vh;
+    text-align: inherit;
+
+}
+
+.video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    min-height: 100vh;
+    }
+ 
+ @media screen and (min-width:280px) and (max-width:770px){
+    .left-col{ 
+       background-color:white;
+
+       float: none;
+    }
+    .right-col{
+         background-color:grey;
+        float: none;
+    }
+    body{
+        background-color:peachpuff;
+    }
+    #planet{
+        float: none;
+    }
+    h1{
+        color: green;
+          font-size: large;
+          float:none;
+     }
+     #active{
+        display: flex;  
+     }
+     #profile{
+        border: 1px solid purple;
+        border-radius: 200px;
+        margin: 8px;
+        padding: 5px;
+        height: 145px;
+     }
+     .left-col{
+         width: 100%;
+     }
+     .right-col{
+         width: 100%;
+     }
+    }
